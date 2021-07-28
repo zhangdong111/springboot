@@ -1,0 +1,84 @@
+server:
+  port: 8080
+  max-http-header-size: 15360
+spring:
+  profiles:
+    save-path: d:/syb_sso/
+    #cachetime
+    cache-duration: -1
+    #
+    allowed-origins: 192.168.1.91,192.168.1.132
+    #wechat
+    wechat:
+      account:
+        appid: wxce41971b4f43113b
+        appsecret: 2393b531e09be6f7af88b4aa20b9ed15
+        #token,MD516,orginal:sybwehcataccount
+        token: A0742980F699963B
+  mvc:
+    static-path-pattern: /apis/upload/**
+    view:
+      prefix: classpath:/templates/
+  #
+  datasource:
+#    url: jdbc:mysql://localhost:3306/wechat_account?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong&allowMultiQueries=true
+    url: jdbc:p6spy:mysql://localhost:3306/syb_sso?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong&allowMultiQueries=true
+    username: shangyiben
+    password: TFedu@6188
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+    #connectionpool
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 10
+      auto-commit: true
+      pool-name: syb-sso-database-connection-pool
+      max-lifetime: 1800000
+      connection-timeout: 30000
+  #redis
+  redis:
+    host: localhost
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 500
+        max-wait: 500
+        max-idle: 500
+        min-idle: 0
+    database: 8
+    timeout: 10000
+  #spring security
+  web:
+    resources:
+      static-locations: file:${spring.profiles.save-path},classpath:/META-INF/resources/,classpath:/META-INF/resources/webjars/,classpath:/static/,classpath:/templates/
+#  security:
+#    user:
+#      name: zhangsan
+#      password: 123456
+#      roles: USER
+#logback
+logging:
+  config: classpath:logback-spring.xml
+# springdoc
+springdoc:
+  api-docs:
+    enabled: true
+    path: /apis-doc
+  swagger-ui:
+    path: /swagger-ui/index.html
+    enabled: true
+    disable-swagger-default-url: false
+    deep-linking: true
+  packages-to-scan: com.sybedu.syb.sso.mapper
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: flag  # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+  type-enums-package: com.sybedu.syb.sso.enmus
+  configuration:
+    log-impl: org.apache.ibatis.logging.log4j.Log4jImpl
+  mapper-locations: classpath*:/mybatis/*.xml

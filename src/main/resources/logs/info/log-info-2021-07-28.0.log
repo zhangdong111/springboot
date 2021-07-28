@@ -1,0 +1,110 @@
+2021-07-28 14:26:59.599 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Starting Gk211985WechatAccountApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 37788 (E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account)
+2021-07-28 14:26:59.600 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - The following profiles are active: dev
+2021-07-28 14:26:59.664 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-28 14:26:59.664 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-28 14:27:00.515 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-28 14:27:00.516 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-28 14:27:00.537 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-07-28 14:27:00.747 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=90919ee9-af9c-3570-95ef-85dda76d857d
+2021-07-28 14:27:00.763 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [ThreadPoolConfig$$EnhancerBySpringCGLIB$$808c37d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 14:27:00.889 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$8635cfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 14:27:01.304 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-07-28 14:27:01.319 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-28 14:27:01.320 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28 14:27:01.320 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-28 14:27:01.394 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-07-28 14:27:01.394 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1729 ms
+2021-07-28 14:27:01.849 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-07-28 14:27:03.242 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-07-28 14:27:03.650 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-07-28 14:27:03.665 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-28 14:27:04.417 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-07-28 14:27:04.429 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Started Gk211985WechatAccountApplication in 5.558 seconds (JVM running for 6.491)
+2021-07-28 15:52:06.500 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-07-28 15:52:07.151 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Starting Gk211985WechatAccountApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 37788 (E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account)
+2021-07-28 15:52:07.151 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - The following profiles are active: dev
+2021-07-28 15:52:07.372 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-28 15:52:07.372 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-28 15:52:07.375 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2021-07-28 15:52:07.409 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=90919ee9-af9c-3570-95ef-85dda76d857d
+2021-07-28 15:52:07.412 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [ThreadPoolConfig$$EnhancerBySpringCGLIB$$808c37d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 15:52:07.423 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$8635cfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 15:52:07.472 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-07-28 15:52:07.472 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-28 15:52:07.472 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28 15:52:07.472 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-28 15:52:07.491 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-07-28 15:52:07.491 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 336 ms
+2021-07-28 15:52:07.517 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-07-28 15:52:08.000 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-07-28 15:52:08.243 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-07-28 15:52:08.246 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-28 15:52:08.955 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-07-28 15:52:08.956 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Started Gk211985WechatAccountApplication in 2.105 seconds (JVM running for 5111.019)
+2021-07-28 15:52:08.958 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-07-28 15:52:09.601 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-07-28 15:52:10.042 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Starting Gk211985WechatAccountApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 37788 (E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account)
+2021-07-28 15:52:10.042 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - The following profiles are active: dev
+2021-07-28 15:52:10.181 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-28 15:52:10.182 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-28 15:52:10.184 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2021-07-28 15:52:10.211 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=90919ee9-af9c-3570-95ef-85dda76d857d
+2021-07-28 15:52:10.213 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [ThreadPoolConfig$$EnhancerBySpringCGLIB$$808c37d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 15:52:10.219 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$8635cfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 15:52:10.259 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-07-28 15:52:10.260 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-28 15:52:10.260 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28 15:52:10.260 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-28 15:52:10.279 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-07-28 15:52:10.279 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 235 ms
+2021-07-28 15:52:10.301 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-07-28 15:52:10.725 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-07-28 15:52:10.938 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-07-28 15:52:10.939 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-28 15:52:11.631 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-07-28 15:52:11.632 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Started Gk211985WechatAccountApplication in 1.797 seconds (JVM running for 5113.694)
+2021-07-28 15:52:11.633 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-07-28 15:53:01.066 [Thread-19] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-07-28 15:53:01.581 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Starting Gk211985WechatAccountApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 37788 (E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account)
+2021-07-28 15:53:01.581 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - The following profiles are active: dev
+2021-07-28 15:53:01.768 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-28 15:53:01.769 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-28 15:53:01.774 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-07-28 15:53:01.818 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=90919ee9-af9c-3570-95ef-85dda76d857d
+2021-07-28 15:53:01.821 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [ThreadPoolConfig$$EnhancerBySpringCGLIB$$808c37d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 15:53:01.827 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$8635cfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 15:53:01.866 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-07-28 15:53:01.867 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-28 15:53:01.867 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28 15:53:01.867 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-28 15:53:01.885 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-07-28 15:53:01.885 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 302 ms
+2021-07-28 15:53:01.907 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-07-28 15:53:02.344 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-07-28 15:53:02.563 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-07-28 15:53:02.566 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-28 15:53:03.262 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-07-28 15:53:03.263 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Started Gk211985WechatAccountApplication in 1.955 seconds (JVM running for 5165.325)
+2021-07-28 15:53:03.264 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-07-28 15:53:03.927 [Thread-27] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-07-28 15:53:04.356 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Starting Gk211985WechatAccountApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 37788 (E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\gk211985-wechat-account)
+2021-07-28 15:53:04.356 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - The following profiles are active: dev
+2021-07-28 15:53:04.495 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-28 15:53:04.495 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-28 15:53:04.498 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2021-07-28 15:53:04.524 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=90919ee9-af9c-3570-95ef-85dda76d857d
+2021-07-28 15:53:04.527 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [ThreadPoolConfig$$EnhancerBySpringCGLIB$$808c37d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 15:53:04.533 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$8635cfdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 15:53:04.580 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-07-28 15:53:04.581 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-28 15:53:04.582 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28 15:53:04.582 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-28 15:53:04.603 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-07-28 15:53:04.604 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 246 ms
+2021-07-28 15:53:04.628 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-07-28 15:53:05.064 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-07-28 15:53:05.262 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-07-28 15:53:05.264 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-28 15:53:05.948 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-07-28 15:53:05.949 [restartedMain] INFO  c.s.g.w.account.Gk211985WechatAccountApplication - Started Gk211985WechatAccountApplication in 1.79 seconds (JVM running for 5168.012)
+2021-07-28 15:53:05.950 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

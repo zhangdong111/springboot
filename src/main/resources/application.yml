@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: syb_sso
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 15728640
+      max-request-size: 15728640
+  session:
+    store-type: redis
+  profiles:
+    active: dev
+server:
+  servlet:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
