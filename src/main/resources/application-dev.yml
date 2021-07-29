@@ -48,7 +48,7 @@ spring:
         min-idle: 0
     database: 8
     timeout: 10000
-  #spring security
+  #webœ‡πÿ≈‰÷√
   web:
     resources:
       static-locations: file:${spring.profiles.save-path},classpath:/META-INF/resources/,classpath:/META-INF/resources/webjars/,classpath:/static/,classpath:/templates/
@@ -71,7 +71,7 @@ springdoc:
     disable-swagger-default-url: false
     deep-linking: true
   packages-to-scan: com.sybedu.syb.sso.mapper
-
+#mybatis-plus≈‰÷√
 mybatis-plus:
   global-config:
     db-config:
