@@ -1,13 +1,16 @@
 package com.sybedu.syb.sso.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.Version;
-import java.util.Date;
-import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.util.Date;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 /**
  * <p>
@@ -19,6 +22,9 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class BuUser implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -58,5 +64,17 @@ public class BuUser implements Serializable {
     @Version
     private Integer version;
 
+
+    //以下为非数据库映射字段
+
+//    /**
+//     * 角色列表
+//     */
+//    private String roles;
+//
+//    /**
+//     * 权限列表
+//     */
+//    private String permissions;
 
 }
