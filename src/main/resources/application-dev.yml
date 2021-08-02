@@ -7,7 +7,7 @@ spring:
     #cachetime
     cache-duration: -1
     #
-    allowed-origins: 192.168.1.91,192.168.1.132
+    allowed-origins: 127.0.0.1,192.168.1.131
     #wechat
     wechat:
       account:
@@ -52,11 +52,11 @@ spring:
   web:
     resources:
       static-locations: file:${spring.profiles.save-path},classpath:/META-INF/resources/,classpath:/META-INF/resources/webjars/,classpath:/static/,classpath:/templates/
-#  security:
-#    user:
-#      name: zhangsan
-#      password: 123456
-#      roles: USER
+  security:
+    user:
+      name: zhangsan
+      password: 123456
+      roles: USER
 #logback
 logging:
   config: classpath:logback-spring.xml
@@ -70,7 +70,7 @@ springdoc:
     enabled: true
     disable-swagger-default-url: false
     deep-linking: true
-  packages-to-scan: com.sybedu.syb.sso.mapper
+  packages-to-scan: com.sybedu.syb.sso.controller
 #mybatis-plus
 mybatis-plus:
   global-config:
@@ -82,3 +82,4 @@ mybatis-plus:
 #  configuration:
 #    log-impl: org.apache.log4j.Logger
   mapper-locations: classpath*:/mybatis/*.xml
+  packages-to-scan: com.sybedu.syb.sso.mapper
