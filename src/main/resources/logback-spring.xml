@@ -104,7 +104,7 @@
 
     <springProfile name="dev">
         <!--myibatis log configure-->
-        <logger name="com.sybedu.syb.sso.mapper" level="debug"/>
+        <logger name="com.sybedu.syb.sso.mapper" level="trace"/>
         <!--log4jdbc -->
         <logger name="jdbc.sqltiming" level="debug"/>
         <logger name="com.ibatis" level="debug"/>

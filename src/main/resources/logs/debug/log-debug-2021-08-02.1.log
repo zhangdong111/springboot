@@ -13043,3 +13043,532 @@ Unconditional classes:
 2021-08-02 11:34:12.973 [FeignApacheHttpClientConfiguration.connectionManagerTimer] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Closing expired connections
 2021-08-02 11:34:15.974 [FeignApacheHttpClientConfiguration.connectionManagerTimer] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Closing expired connections
 2021-08-02 11:34:18.975 [FeignApacheHttpClientConfiguration.connectionManagerTimer] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Closing expired connections
+2021-08-02 11:43:49.982 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.application.name' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:49.990 [restartedMain] DEBUG com.sybedu.syb.sso.SybSSOApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-08-02 11:43:49.990 [restartedMain] DEBUG org.springframework.boot.SpringApplication - Loading source class com.sybedu.syb.sso.SybSSOApplication
+2021-08-02 11:43:50.020 [restartedMain] DEBUG o.s.boot.devtools.restart.ChangeableUrls - Matching URLs for reloading : [file:/E:/Version%20Control/Git%20Work%20Space/GitHub/springboot/syb_sso/target/classes/]
+2021-08-02 11:43:50.020 [restartedMain] DEBUG o.s.boot.devtools.settings.DevToolsSettings - Included patterns for restart : [/mybatis-plus-[\w-]+.jar]
+2021-08-02 11:43:50.021 [restartedMain] DEBUG o.s.boot.devtools.settings.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+2021-08-02 11:43:50.021 [restartedMain] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e83b801
+2021-08-02 11:43:50.029 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-08-02 11:43:50.034 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2021-08-02 11:43:50.063 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\config\async\ThreadPoolConfig.class]
+2021-08-02 11:43:50.063 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\config\http\message\MappingJackson2HttpMessageConverterConfig.class]
+2021-08-02 11:43:50.063 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\config\mvc\WebMvcConfig.class]
+2021-08-02 11:43:50.064 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\config\mybatis\MybatisPlusConfig.class]
+2021-08-02 11:43:50.069 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\config\redis\RedisConfig.class]
+2021-08-02 11:43:50.069 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\config\redis\RedisSessionConfig.class]
+2021-08-02 11:43:50.069 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\config\security\config\LindTokenAuthenticationFilter.class]
+2021-08-02 11:43:50.072 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\config\security\config\WebSecurityConfig.class]
+2021-08-02 11:43:50.074 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\controller\BuPermissionController.class]
+2021-08-02 11:43:50.075 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\controller\BuRoleController.class]
+2021-08-02 11:43:50.075 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\controller\BuRolePermissionController.class]
+2021-08-02 11:43:50.084 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\controller\BuUserController.class]
+2021-08-02 11:43:50.084 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\controller\BuUserRoleController.class]
+2021-08-02 11:43:50.087 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\service\impl\BuPermissionServiceImpl.class]
+2021-08-02 11:43:50.088 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\service\impl\BuRolePermissionServiceImpl.class]
+2021-08-02 11:43:50.088 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\service\impl\BuRoleServiceImpl.class]
+2021-08-02 11:43:50.088 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\service\impl\BuUserRoleServiceImpl.class]
+2021-08-02 11:43:50.089 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\service\impl\BuUserServiceImpl.class]
+2021-08-02 11:43:50.089 [restartedMain] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\service\impl\UserDetailsServiceImpl.class]
+2021-08-02 11:43:50.224 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.248 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.250 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.datasource.url' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.258 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.api-docs.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.260 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.api-docs.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.265 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.swagger-ui.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.268 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.swagger-ui.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.268 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.swagger-ui.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.269 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.api-docs.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.270 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.api-docs.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.272 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.swagger-ui.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.273 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.274 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.application.admin.enabled' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.329 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'server.servlet.encoding.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.330 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.servlet.multipart.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.397 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.423 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.430 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.api-docs.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.430 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.api-docs.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.443 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.swagger-ui.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.443 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.swagger-ui.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.444 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.swagger-ui.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.445 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.api-docs.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.447 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.api-docs.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.451 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'springdoc.swagger-ui.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.454 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.456 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.application.admin.enabled' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.488 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2021-08-02 11:43:50.488 [restartedMain] DEBUG o.s.boot.autoconfigure.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'com.sybedu.syb.sso'. Automatic @Repository and @Entity scanning is enabled.
+2021-08-02 11:43:50.489 [restartedMain] DEBUG o.s.d.r.config.RepositoryConfigurationDelegate - Scanning for Redis repositories in packages com.sybedu.syb.sso.
+2021-08-02 11:43:50.528 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'server.servlet.encoding.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.529 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.servlet.multipart.enabled' in PropertySource 'configurationProperties' with value of type Boolean
+2021-08-02 11:43:50.570 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'refreshScope'
+2021-08-02 11:43:50.571 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.sybedu.syb.sso.config.mybatis.MybatisPlusConfig#MapperScannerRegistrar#0'
+2021-08-02 11:43:50.576 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.sybedu.syb.sso.SybSSOApplication#MapperScannerRegistrar#0'
+2021-08-02 11:43:50.576 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$RefreshScopeBeanDefinitionEnhancer'
+2021-08-02 11:43:50.576 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2021-08-02 11:43:50.580 [restartedMain] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-08-02 11:43:50.582 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\mapper\BuPermissionMapper.class]
+2021-08-02 11:43:50.582 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\mapper\BuRoleMapper.class]
+2021-08-02 11:43:50.582 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\mapper\BuRolePermissionMapper.class]
+2021-08-02 11:43:50.582 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\mapper\BuUserMapper.class]
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes\com\sybedu\syb\sso\mapper\BuUserRoleMapper.class]
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'buPermissionMapper' and 'com.sybedu.syb.sso.mapper.BuPermissionMapper' mapperInterface
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'buPermissionMapper'.
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'buRoleMapper' and 'com.sybedu.syb.sso.mapper.BuRoleMapper' mapperInterface
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'buRoleMapper'.
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'buRolePermissionMapper' and 'com.sybedu.syb.sso.mapper.BuRolePermissionMapper' mapperInterface
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'buRolePermissionMapper'.
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'buUserMapper' and 'com.sybedu.syb.sso.mapper.BuUserMapper' mapperInterface
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'buUserMapper'.
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'buUserRoleMapper' and 'com.sybedu.syb.sso.mapper.BuUserRoleMapper' mapperInterface
+2021-08-02 11:43:50.583 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'buUserRoleMapper'.
+2021-08-02 11:43:50.623 [restartedMain] DEBUG o.springframework.cloud.context.scope.GenericScope - Generating bean factory id from names: [additionalModelsConverter, apacheHttpClientBuilder, apacheHttpClientFactory, applicationAvailability, authenticationManagerBean, authenticationManagerBuilder, autowiredWebSecurityConfigurersIgnoreParents, basicErrorController, beanNameHandlerMapping, beanNameViewResolver, buPermissionController, buPermissionMapper, buPermissionServiceImpl, buRoleController, buRoleMapper, buRolePermissionController, buRolePermissionMapper, buRolePermissionServiceImpl, buRoleServiceImpl, buUserController, buUserMapper, buUserRoleController, buUserRoleMapper, buUserRoleServiceImpl, buUserServiceImpl, cacheInterceptor, cacheManager, cacheOperationSource, characterEncodingFilter, classPathFileSystemWatcher, classPathRestartStrategy, com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration, com.baomidou.mybatisplus.autoconfigure.MybatisPlusLanguageDriverAutoConfiguration, com.sybedu.syb.sso.SybSSOApplication#MapperScannerRegistrar#0, com.sybedu.syb.sso.config.mybatis.MybatisPlusConfig#MapperScannerRegistrar#0, compositeCompatibilityVerifier, compositeDiscoveryClient, conditionEvaluationDeltaLoggingListener, configDataContextRefresher, configurationPropertiesBeans, configurationPropertiesRebinder, connManFactory, connPoolFactory, connectionManager, container, conventionErrorViewResolver, conversionServicePostProcessor, cookieSerializer, dataSource, dataSourceInitializerPostProcessor, default.com.sybedu.syb.sso.SybSSOApplication.FeignClientSpecification, defaultServletHandlerMapping, defaultViewResolver, delegatingApplicationListener, dispatcherServlet, dispatcherServletRegistration, enableGlobalAuthenticationAutowiredConfigurer, enableRedisKeyspaceNotificationsInitializer, environmentManager, error, errorAttributes, errorPageCustomizer, errorPageRegistrarBeanPostProcessor, feign.client-org.springframework.cloud.openfeign.FeignClientProperties, feign.httpclient-org.springframework.cloud.openfeign.support.FeignHttpClientProperties, feignClient, feignContext, feignFeature, feignTargeter, fileSupportConverter, fileSystemWatcherFactory, flashMapManager, formContentFilter, genericReturnTypeParser, getMappingJackson2HttpMessageConverter, handlerExceptionResolver, handlerFunctionAdapter, hikariPoolDataSourceMetadataProvider, httpClient, httpRequestHandlerAdapter, inMemoryDatabaseShutdownExecutor, indexPageTransformer, inetUtils, inetUtilsProperties, initializeAuthenticationProviderBeanManagerConfigurer, initializeUserDetailsBeanManagerConfigurer, jacksonGeoModule, jacksonObjectMapper, jacksonObjectMapperBuilder, jdbcTemplate, jsonComponentModule, keyValueMappingContext, lettuceClientResources, lifecycleProcessor, lindTokenAuthenticationFilter, liveReloadServer, liveReloadServerEventListener, localSpringDocParameterNameDiscoverer, localeCharsetMappingsCustomizer, localeResolver, loggingRebinder, mappingJackson2HttpMessageConverterConfig, mbeanExporter, mbeanServer, messageConverters, metaDataSourceAdvisor, methodSecurityInterceptor, methodSecurityMetadataSource, modelConverterRegistrar, multipartConfigElement, multipartResolver, mvcContentNegotiationManager, mvcConversionService, mvcHandlerMappingIntrospector, mvcPathMatcher, mvcResourceUrlProvider, mvcUriComponentsContributor, mvcUrlPathHelper, mvcValidator, mvcViewResolver, mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties, mybatisPlusConfig, mybatisPlusOptimisticLockerInterceptor, mybatisPlusPageInterceptor, namedParameterJdbcTemplate, objectNamingStrategy, objectPostProcessor, objectRedisTemplate, okHttpClientBuilder, okHttpClientFactory, openAPIBuilder, openApiResource, operationBuilder, optionalLiveReloadServer, org.springdoc.core.SpringDocConfigProperties, org.springdoc.core.SpringDocConfiguration, org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice, org.springdoc.core.SpringDocConfiguration$WebConversionServiceConfiguration, org.springdoc.core.SwaggerUiConfigParameters, org.springdoc.core.SwaggerUiConfigProperties, org.springdoc.core.SwaggerUiOAuthProperties, org.springdoc.webmvc.core.SpringDocWebMvcConfiguration, org.springdoc.webmvc.core.SpringDocWebMvcConfiguration$SpringDocWebMvcRouterConfiguration, org.springdoc.webmvc.ui.SwaggerConfig, org.springframework.aop.config.internalAutoProxyCreator, org.springframework.boot.autoconfigure.AutoConfigurationPackages, org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration, org.springframework.boot.autoconfigure.aop.AopAutoConfiguration, org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration, org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration, org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration, org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration, org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration, org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration, org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration, org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration, org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration, org.springframework.boot.autoconfigure.data.redis.RedisReactiveAutoConfiguration, org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration, org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration, org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration, org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration, org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari, org.springframework.boot.autoconfigure.jdbc.DataSourceInitializationConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker, org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration, org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration, org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration, org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration, org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.session.SessionAutoConfiguration, org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionConfiguration, org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionConfiguration$RememberMeServicesConfiguration, org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionRepositoryValidator, org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration, org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration, org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration, org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration, org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration, org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration, org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration, org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration, org.springframework.boot.context.internalConfigurationPropertiesBinder, org.springframework.boot.context.internalConfigurationPropertiesBinderFactory, org.springframework.boot.context.properties.BoundConfigurationProperties, org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor, org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter, org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration, org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration, org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration, org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration, org.springframework.cache.annotation.ProxyCachingConfiguration, org.springframework.cache.config.internalCacheAdvisor, org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration, org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration, org.springframework.cloud.autoconfigure.RefreshAutoConfiguration, org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$RefreshScopeBeanDefinitionEnhancer, org.springframework.cloud.client.CommonsClientAutoConfiguration, org.springframework.cloud.client.ReactiveCommonsClientAutoConfiguration, org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClientAutoConfiguration, org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration, org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationAutoConfiguration, org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationConfiguration, org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration, org.springframework.cloud.commons.httpclient.HttpClientConfiguration, org.springframework.cloud.commons.httpclient.HttpClientConfiguration$ApacheHttpClientConfiguration, org.springframework.cloud.commons.httpclient.HttpClientConfiguration$OkHttpClientConfiguration, org.springframework.cloud.commons.util.UtilAutoConfiguration, org.springframework.cloud.configuration.CompatibilityVerifierAutoConfiguration, org.springframework.cloud.openfeign.FeignAutoConfiguration, org.springframework.cloud.openfeign.FeignAutoConfiguration$DefaultFeignTargeterConfiguration, org.springframework.cloud.openfeign.FeignAutoConfiguration$HttpClientFeignConfiguration, org.springframework.context.annotation.internalAsyncAnnotationProcessor, org.springframework.context.annotation.internalAutowiredAnnotationProcessor, org.springframework.context.annotation.internalCommonAnnotationProcessor, org.springframework.context.annotation.internalConfigurationAnnotationProcessor, org.springframework.context.annotation.internalScheduledAnnotationProcessor, org.springframework.context.event.internalEventListenerFactory, org.springframework.context.event.internalEventListenerProcessor, org.springframework.data.web.config.ProjectingArgumentResolverRegistrar, org.springframework.data.web.config.SpringDataJacksonConfiguration, org.springframework.data.web.config.SpringDataWebConfiguration, org.springframework.scheduling.annotation.ProxyAsyncConfiguration, org.springframework.scheduling.annotation.SchedulingConfiguration, org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration, org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration, org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration, org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration, org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity, org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration, org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration, org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration, org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$SessionCleanupConfiguration, org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration, org.springframework.transaction.config.internalTransactionAdvisor, org.springframework.transaction.config.internalTransactionalEventListenerFactory, pageableCustomizer, pageableResolver, parameterBuilder, parameterNamesModule, passwordEncoder, persistenceExceptionTranslationPostProcessor, platformTransactionManagerCustomizers, polymorphicModelConverter, preInvocationAuthorizationAdvice, preserveErrorControllerTargetClassPostProcessor, privilegeEvaluator, projectingArgumentResolverBeanPostProcessor, propertyCustomizingConverter, propertyResolverUtils, propertySourcesPlaceholderConfigurer, reactiveRedisTemplate, reactiveStringRedisTemplate, redisConfig, redisConnectionFactory, redisConverter, redisCustomConversions, redisKeyValueAdapter, redisKeyValueTemplate, redisReferenceResolver, redisSessionConfig, redisTemplate, refreshEventListener, refreshScope, rememberMeServicesCookieSerializerCustomizer, requestBodyBuilder, requestBuilder, requestContextFilter, requestDataValueProcessor, requestMappingHandlerAdapter, requestMappingHandlerMapping, resourceHandlerMapping, resourceHandlerRegistrationCustomizer, responseBuilder, responseSupportConverter, restTemplateBuilder, restTemplateBuilderConfigurer, restartingClassPathChangedEventListener, routerFunctionMapping, routerFunctionProvider, schemaPropertyDeprecatingConverter, securityFilterChainRegistration, securityParser, server-org.springframework.boot.autoconfigure.web.ServerProperties, servletWebServerFactoryCustomizer, sessionEventHttpSessionListenerAdapter, sessionRepository, sessionRepositoryFilterRegistration, simpleControllerHandlerAdapter, simpleDiscoveryClient, simpleDiscoveryProperties, sortCustomizer, sortResolver, spring.cloud.compatibility-verifier-org.springframework.cloud.configuration.CompatibilityVerifierProperties, spring.cloud.service-registry.auto-registration-org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationProperties, spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties, spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties, spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties, spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties, spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties, spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties, spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties, spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties, spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties, spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties, spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties, spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties, spring.session-org.springframework.boot.autoconfigure.session.SessionProperties, spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties, spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties, spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties, spring.web-org.springframework.boot.autoconfigure.web.WebProperties, springApplicationAdminRegistrar, springBootVersionVerifier, springSecurityFilterChain, springSessionRedisMessageListenerContainer, springSessionRepositoryFilter, sqlSessionFactory, sqlSessionTemplate, standardJacksonObjectMapperBuilderCustomizer, stringHttpMessageConverter, stringRedisTemplate, swaggerWebMvcConfigurer, swaggerWelcome, sybSSOApplication, taskExecutorBuilder, taskSchedulerBuilder, themeResolver, thread, threadPoolConfig, tomcatServletWebServerFactory, tomcatServletWebServerFactoryCustomizer, tomcatWebServerFactoryCustomizer, transactionAttributeSource, transactionInterceptor, transactionManager, transactionTemplate, userDetailsService, viewControllerHandlerMapping, viewNameTranslator, viewResolver, webConversionServiceProvider, webMvcConfig, webSecurityConfig, webSecurityExpressionHandler, webServerFactoryCustomizerBeanPostProcessor, websocketServletWebServerCustomizer, welcomePageHandlerMapping]
+2021-08-02 11:43:50.625 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-08-02 11:43:50.626 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conversionServicePostProcessor'
+2021-08-02 11:43:50.626 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2021-08-02 11:43:50.627 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-08-02 11:43:50.627 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2021-08-02 11:43:50.631 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-08-02 11:43:50.631 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-08-02 11:43:50.632 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2021-08-02 11:43:50.633 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2021-08-02 11:43:50.633 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2021-08-02 11:43:50.634 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAsyncAnnotationProcessor'
+2021-08-02 11:43:50.634 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.scheduling.annotation.ProxyAsyncConfiguration'
+2021-08-02 11:43:50.642 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'threadPoolConfig'
+2021-08-02 11:43:50.647 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-08-02 11:43:50.658 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+2021-08-02 11:43:50.658 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.scheduling.annotation.SchedulingConfiguration'
+2021-08-02 11:43:50.659 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSourceInitializerPostProcessor'
+2021-08-02 11:43:50.660 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2021-08-02 11:43:50.660 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2021-08-02 11:43:50.661 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2021-08-02 11:43:50.661 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2021-08-02 11:43:50.661 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2021-08-02 11:43:50.662 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cache.config.internalCacheAdvisor'
+2021-08-02 11:43:50.662 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cache.annotation.ProxyCachingConfiguration'
+2021-08-02 11:43:50.662 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'metaDataSourceAdvisor'
+2021-08-02 11:43:50.662 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'methodSecurityMetadataSource'
+2021-08-02 11:43:50.662 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration'
+2021-08-02 11:43:50.662 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2021-08-02 11:43:50.663 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2021-08-02 11:43:50.680 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+2021-08-02 11:43:50.682 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+2021-08-02 11:43:50.682 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2021-08-02 11:43:50.704 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2021-08-02 11:43:50.704 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2021-08-02 11:43:50.712 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'objectPostProcessor'
+2021-08-02 11:43:50.712 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+2021-08-02 11:43:50.713 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'objectPostProcessor' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@63b0ce58'
+2021-08-02 11:43:50.721 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisConfig'
+2021-08-02 11:43:50.722 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.redis.host' in PropertySource 'configurationProperties' with value of type String
+2021-08-02 11:43:50.722 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.redis.host' in PropertySource 'environmentProperties' with value of type String
+2021-08-02 11:43:50.723 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.redis.port' in PropertySource 'configurationProperties' with value of type Integer
+2021-08-02 11:43:50.723 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.redis.port' in PropertySource 'environmentProperties' with value of type String
+2021-08-02 11:43:50.723 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.redis.timeout' in PropertySource 'configurationProperties' with value of type Integer
+2021-08-02 11:43:50.724 [restartedMain] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.redis.timeout' in PropertySource 'environmentProperties' with value of type String
+2021-08-02 11:43:50.727 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cacheOperationSource'
+2021-08-02 11:43:50.729 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cacheInterceptor'
+2021-08-02 11:43:50.729 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'cacheInterceptor' via factory method to bean named 'cacheOperationSource'
+2021-08-02 11:43:50.732 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.cache.config.internalCacheAdvisor' via factory method to bean named 'cacheOperationSource'
+2021-08-02 11:43:50.732 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.cache.config.internalCacheAdvisor' via factory method to bean named 'cacheInterceptor'
+2021-08-02 11:43:50.739 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'configurationPropertiesBeans'
+2021-08-02 11:43:50.741 [restartedMain] DEBUG o.s.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@63e84742]
+2021-08-02 11:43:50.741 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2021-08-02 11:43:50.741 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2021-08-02 11:43:50.759 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2021-08-02 11:43:50.759 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2021-08-02 11:43:50.760 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2021-08-02 11:43:50.760 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2021-08-02 11:43:50.761 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-08-02 11:43:50.765 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2021-08-02 11:43:50.774 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-08-02 11:43:50.775 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2021-08-02 11:43:50.776 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-08-02 11:43:50.776 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2021-08-02 11:43:50.776 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2021-08-02 11:43:50.777 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2021-08-02 11:43:50.777 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-08-02 11:43:50.778 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2021-08-02 11:43:50.779 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2021-08-02 11:43:50.779 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-08-02 11:43:50.790 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageCustomizer'
+2021-08-02 11:43:50.790 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2021-08-02 11:43:50.791 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-08-02 11:43:50.792 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2021-08-02 11:43:50.792 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2021-08-02 11:43:50.793 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServlet'
+2021-08-02 11:43:50.793 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2021-08-02 11:43:50.793 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-08-02 11:43:50.797 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-08-02 11:43:50.807 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2021-08-02 11:43:50.807 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2021-08-02 11:43:50.808 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartConfigElement'
+2021-08-02 11:43:50.808 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2021-08-02 11:43:50.808 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2021-08-02 11:43:50.811 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2021-08-02 11:43:50.814 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2021-08-02 11:43:50.861 [restartedMain] DEBUG o.s.b.w.e.tomcat.TomcatServletWebServerFactory - Code archive: E:\Build Tools\apache-maven-3.2.5\localRepository\org\springframework\boot\spring-boot\2.4.0\spring-boot-2.4.0.jar
+2021-08-02 11:43:50.861 [restartedMain] DEBUG o.s.b.w.e.tomcat.TomcatServletWebServerFactory - Code archive: E:\Build Tools\apache-maven-3.2.5\localRepository\org\springframework\boot\spring-boot\2.4.0\spring-boot-2.4.0.jar
+2021-08-02 11:43:50.861 [restartedMain] DEBUG o.s.b.w.e.tomcat.TomcatServletWebServerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-08-02 11:43:51.054 [restartedMain] DEBUG o.s.b.w.s.c.ServletWebServerApplicationContext - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2021-08-02 11:43:51.056 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'securityFilterChainRegistration'
+2021-08-02 11:43:51.056 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration'
+2021-08-02 11:43:51.056 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+2021-08-02 11:43:51.058 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'securityFilterChainRegistration' via factory method to bean named 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+2021-08-02 11:43:51.061 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sessionRepositoryFilterRegistration'
+2021-08-02 11:43:51.061 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration'
+2021-08-02 11:43:51.062 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.session-org.springframework.boot.autoconfigure.session.SessionProperties'
+2021-08-02 11:43:51.064 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springSessionRepositoryFilter'
+2021-08-02 11:43:51.064 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration'
+2021-08-02 11:43:51.075 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cookieSerializer'
+2021-08-02 11:43:51.075 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionConfiguration'
+2021-08-02 11:43:51.075 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'cookieSerializer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2021-08-02 11:43:51.077 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rememberMeServicesCookieSerializerCustomizer'
+2021-08-02 11:43:51.077 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionConfiguration$RememberMeServicesConfiguration'
+2021-08-02 11:43:51.082 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisConnectionFactory'
+2021-08-02 11:43:51.082 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration'
+2021-08-02 11:43:51.082 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties'
+2021-08-02 11:43:51.085 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' via constructor to bean named 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties'
+2021-08-02 11:43:51.086 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'lettuceClientResources'
+2021-08-02 11:43:51.087 [restartedMain] DEBUG i.n.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2021-08-02 11:43:51.088 [restartedMain] DEBUG io.lettuce.core.resource.DefaultClientResources - -Dio.netty.eventLoopThreads: 16
+2021-08-02 11:43:51.092 [restartedMain] DEBUG i.l.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2021-08-02 11:43:51.100 [restartedMain] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-08-02 11:43:51.100 [restartedMain] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-08-02 11:43:51.102 [restartedMain] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2021-08-02 11:43:51.102 [restartedMain] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2021-08-02 11:43:51.103 [restartedMain] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@11b7e01
+2021-08-02 11:43:51.104 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2021-08-02 11:43:51.104 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2021-08-02 11:43:51.104 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+2021-08-02 11:43:51.105 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2021-08-02 11:43:51.105 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2021-08-02 11:43:51.105 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2021-08-02 11:43:51.106 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:178)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:563)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:243)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getObject(DefaultListableBeanFactory.java:1966)
+	at org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration.setRedisConnectionFactory(RedisHttpSessionConfiguration.java:209)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:754)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:203)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:97)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:259)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:233)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5166)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:451)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:200)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.sybedu.syb.sso.SybSSOApplication.main(SybSSOApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2021-08-02 11:43:51.107 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2021-08-02 11:43:51.108 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @abb5ee4
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:178)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:563)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:243)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getObject(DefaultListableBeanFactory.java:1966)
+	at org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration.setRedisConnectionFactory(RedisHttpSessionConfiguration.java:209)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:754)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:203)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:97)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:259)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:233)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5166)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:451)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:200)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.sybedu.syb.sso.SybSSOApplication.main(SybSSOApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2021-08-02 11:43:51.108 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-08-02 11:43:51.108 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2021-08-02 11:43:51.109 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4240441344 bytes (maybe)
+2021-08-02 11:43:51.109 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\kefu\AppData\Local\Temp (java.io.tmpdir)
+2021-08-02 11:43:51.109 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-08-02 11:43:51.109 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2021-08-02 11:43:51.109 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-08-02 11:43:51.110 [restartedMain] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2021-08-02 11:43:51.110 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2021-08-02 11:43:51.111 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2021-08-02 11:43:51.116 [restartedMain] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-08-02 11:43:51.127 [restartedMain] DEBUG io.lettuce.core.resource.DefaultClientResources - LatencyUtils/HdrUtils are not available, metrics are disabled
+2021-08-02 11:43:51.128 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'redisConnectionFactory' via factory method to bean named 'lettuceClientResources'
+2021-08-02 11:43:51.164 [restartedMain] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sessionRepository'
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class [B as writing converter.
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.String as reading converter.
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Number to class [B as writing converter.
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Number as reading converter.
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Enum to class [B as writing converter.
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Enum as reading converter.
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Boolean to class [B as writing converter.
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Boolean as reading converter.
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class [B as writing converter.
+2021-08-02 11:43:51.179 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.Date as reading converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.UUID to class [B as writing converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.UUID as reading converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class [B as writing converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDate as reading converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class [B as writing converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalTime as reading converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class [B as writing converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Instant as reading converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class [B as writing converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZoneId as reading converter.
+2021-08-02 11:43:51.180 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class [B as writing converter.
+2021-08-02 11:43:51.181 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Period as reading converter.
+2021-08-02 11:43:51.181 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class [B as writing converter.
+2021-08-02 11:43:51.181 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Duration as reading converter.
+2021-08-02 11:43:51.181 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+2021-08-02 11:43:51.181 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+2021-08-02 11:43:51.181 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+2021-08-02 11:43:51.181 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+2021-08-02 11:43:51.181 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+2021-08-02 11:43:51.181 [restartedMain] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.

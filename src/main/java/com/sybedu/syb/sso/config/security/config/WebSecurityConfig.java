@@ -1,5 +1,6 @@
 package com.sybedu.syb.sso.config.security.config;
 
+import com.sybedu.syb.sso.config.security.filter.JwtLoginFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -25,7 +26,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      * token过滤器.
      */
     @Autowired
-    LindTokenAuthenticationFilter lindTokenAuthenticationFilter;
+    JwtLoginFilter jwtLoginFilter;
 
     @Bean
     @Override
@@ -41,11 +42,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
             .authorizeRequests()
             // 对于获取token的rest api要允许匿名访问
-            .antMatchers("/apis/user/login").permitAll()
+            .antMatchers("/apis/user/login","/**","/swagger/**").permitAll()
             // 除上面外的所有请求全部需要鉴权认证
             .anyRequest().authenticated();
         httpSecurity
-            .addFilterBefore(lindTokenAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+            .addFilterBefore(jwtLoginFilter, UsernamePasswordAuthenticationFilter.class);
         // 禁用缓存
         httpSecurity.headers().cacheControl();
     }

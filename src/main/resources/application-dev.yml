@@ -75,9 +75,11 @@ springdoc:
 mybatis-plus:
   global-config:
     db-config:
-      logic-delete-field: flag
+      logic-delete-field: is_delete
       logic-delete-value: 1
       logic-not-delete-value: 0
+      #基于数字类型的雪花算法
+      id-type: assign_id
   type-enums-package: com.sybedu.syb.sso.enmus
 #  configuration:
 #    log-impl: org.apache.log4j.Logger
