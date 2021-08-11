@@ -29,7 +29,7 @@ public class MybatisGenerater {
     gc.setOutputDir(projectPath+"/src/main/java");
     gc.setAuthor("Rexxer");
     gc.setOpen(false); //不打开生产的文件
-    gc.setFileOverride(true); //不覆盖之前生成的文件
+    gc.setFileOverride(false); //不覆盖之前生成的文件
 //        //设置生成代码的名字
 //    gc.setEntityName("%sEntity")
     gc.setEntityName("%sEntity")

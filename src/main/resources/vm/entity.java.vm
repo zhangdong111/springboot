@@ -1,5 +1,5 @@
 package ${package.Entity};
-
+import java.io.Serializable;
 #foreach($pkg in ${table.importPackages})
 import ${pkg};
 #end
@@ -25,12 +25,12 @@ import lombok.EqualsAndHashCode;
 #if(${entityLombokModel})
 @Data
     #if(${superEntityClass})
-    @EqualsAndHashCode(callSuper = true)
+@EqualsAndHashCode(callSuper = true)
     #else
-    @EqualsAndHashCode(callSuper = false)
+@EqualsAndHashCode(callSuper = false)
     #end
     #if(${chainModel})
-    @Accessors(chain = true)
+@Accessors(chain = true)
     #end
 #end
 #if(${table.convert})
@@ -40,11 +40,11 @@ import lombok.EqualsAndHashCode;
 @Schema(name = "${entity}",description="$!{table.comment}")
 #end
 #if(${superEntityClass})
-public class ${entity} extends ${superEntityClass}#if(${activeRecord})<${entity}>#end {
+public class ${entity} extends ${superEntityClass}#if(${activeRecord})<${entity}>#end implements Serializable {
 #elseif(${activeRecord})
-public class ${entity} extends Model<${entity}> {
+public class ${entity} extends Model<${entity}> implements Serializable {
 #else
-public class ${entity} implements Serializable {
+public class ${entity} implements Serializable implements Serializable {
 #end
 
 #if(${entitySerialVersionUID})
@@ -58,7 +58,7 @@ private static final long serialVersionUID=1L;
     #end
     #if("$!field.comment" != "")
         #if(${swagger2})
-        @Schema(description = "${field.comment}")
+        @Schema(name = "${field.propertyName}" , description = "${field.comment}")
         #else
         /**
          * ${field.comment}

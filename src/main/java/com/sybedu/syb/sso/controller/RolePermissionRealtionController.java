@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2021-08-11
  */
 @RestController
-@RequestMapping("/role-permission-realtion-entity")
+@RequestMapping("/apis/auth/role-permission-realtion")
 public class RolePermissionRealtionController {
 
 }

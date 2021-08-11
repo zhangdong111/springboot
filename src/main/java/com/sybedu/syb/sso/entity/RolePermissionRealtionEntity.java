@@ -3,6 +3,7 @@ package com.sybedu.syb.sso.entity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
+import java.io.Serializable;
 import java.util.Date;
 import com.baomidou.mybatisplus.annotation.Version;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -15,44 +16,44 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author Rexxer
  * @since 2021-08-11
  */
 @Data
-    @EqualsAndHashCode(callSuper = true)
+@EqualsAndHashCode(callSuper = true)
 @TableName("au_role_permission_realtion")
 @Schema(name = "RolePermissionRealtionEntity",description="")
-public class RolePermissionRealtionEntity extends Model {
+public class RolePermissionRealtionEntity extends Model implements Serializable {
 
-private static final long serialVersionUID=1L;
+  private static final long serialVersionUID=1L;
 
-                @TableId(value = "id", type = IdType.ASSIGN_ID)
-                private Long id;
+  @TableId(value = "id", type = IdType.ASSIGN_ID)
+  private Long id;
 
-        @Schema(description = "角色id")
-        private Integer roleId;
+  @Schema(name = "roleId" , description = "角色id")
+  private Integer roleId;
 
-        @Schema(description = "功能id")
-        private Integer permissionId;
+  @Schema(name = "permissionId" , description = "功能id")
+  private Integer permissionId;
 
-        @Schema(description = "创建时间")
-                @TableField(fill = FieldFill.INSERT)
-        private Date createdTime;
+  @Schema(name = "createdTime" , description = "创建时间")
+  @TableField(fill = FieldFill.INSERT)
+  private Date createdTime;
 
-        @Schema(description = "更新时间")
-                @TableField(fill = FieldFill.INSERT_UPDATE)
-        private Date updatedTime;
+  @Schema(name = "updatedTime" , description = "更新时间")
+  @TableField(fill = FieldFill.INSERT_UPDATE)
+  private Date updatedTime;
 
-        @Schema(description = "逻辑删除")
-            @TableLogic
-private Boolean isDeleted;
+  @Schema(name = "isDeleted" , description = "逻辑删除")
+  @TableLogic
+  private Boolean isDeleted;
 
-        @Schema(description = "数据版本号")
-        @Version
-    private Integer version;
+  @Schema(name = "version" , description = "数据版本号")
+  @Version
+  private Integer version;
 
 
-    }
+}

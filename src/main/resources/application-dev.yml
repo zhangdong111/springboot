@@ -78,7 +78,7 @@ mybatis-plus:
       logic-delete-field: is_delete
       logic-delete-value: 1
       logic-not-delete-value: 0
-      #»ùÓÚÊı×ÖÀàĞÍµÄÑ©»¨Ëã·¨
+      #åŸºäºæ•°å­—ç±»å‹çš„é›ªèŠ±ç®—æ³•
       id-type: assign_id
   type-enums-package: com.sybedu.syb.sso.enmus
 #  configuration:

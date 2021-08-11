@@ -15,41 +15,41 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author Rexxer
  * @since 2021-08-11
  */
 @Data
-    @EqualsAndHashCode(callSuper = true)
+@EqualsAndHashCode(callSuper = true)
 @TableName("au_role")
 @Schema(name = "RoleEntity",description="")
 public class RoleEntity extends Model {
 
-private static final long serialVersionUID=1L;
+  private static final long serialVersionUID=1L;
 
-                @TableId(value = "id", type = IdType.ASSIGN_ID)
-                private Long id;
+  @TableId(value = "id", type = IdType.ASSIGN_ID)
+  private Long id;
 
-        @Schema(description = "角色名称")
-        private String name;
+  @Schema(name = "name" , description = "角色名称")
+  private String name;
 
-        @Schema(description = "创建时间")
-                @TableField(fill = FieldFill.INSERT)
-        private Date createdTime;
+  @Schema(name = "createdTime" , description = "创建时间")
+  @TableField(fill = FieldFill.INSERT)
+  private Date createdTime;
 
-        @Schema(description = "更新时间")
-                @TableField(fill = FieldFill.INSERT_UPDATE)
-        private Date updatedTime;
+  @Schema(name = "updatedTime" , description = "更新时间")
+  @TableField(fill = FieldFill.INSERT_UPDATE)
+  private Date updatedTime;
 
-        @Schema(description = "逻辑删除")
-            @TableLogic
-private Boolean isDeleted;
+  @Schema(name = "isDeleted" , description = "逻辑删除")
+  @TableLogic
+  private Boolean isDeleted;
 
-        @Schema(description = "数据版本号")
-        @Version
-    private Integer version;
+  @Schema(name = "version" , description = "数据版本号")
+  @Version
+  private Integer version;
 
 
-    }
+}
