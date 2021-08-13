@@ -6,8 +6,8 @@ package com.sybedu.syb.sso.exception;
  */
 public enum  ErrorTypeEnums {
 
-  SYSTEM_EXCEPTION(0,"系统异常"),
-  BUSSINESS_EXCEPTION(1,"业务异常");
+  SYSTEM_EXCEPTION(1,"系统异常"),
+  BUSSINESS_EXCEPTION(2,"业务异常");
 
   private int type;
 

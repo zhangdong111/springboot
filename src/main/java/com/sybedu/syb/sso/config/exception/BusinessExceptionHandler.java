@@ -43,7 +43,7 @@ public class BusinessExceptionHandler {
     Map<String,Object> map = new HashMap<>();
     map.put("errorCode",e.getExceptionCode());
     map.put("errMsg",e.getExceptionMsg());
-    map.put("trace",e.getExceptionTrace());
+    map.put("trace",e.getExceptionTrace().toString());
     map.put("errorType",ErrorTypeEnums.BUSSINESS_EXCEPTION.getType());
     JSONObject jsonObject = JSONUtil.createObj();
     jsonObject.putAll(map);
