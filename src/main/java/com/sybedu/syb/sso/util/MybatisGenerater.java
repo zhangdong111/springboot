@@ -29,7 +29,7 @@ public class MybatisGenerater {
     gc.setOutputDir(projectPath+"/src/main/java");
     gc.setAuthor("Rexxer");
     gc.setOpen(false); //不打开生产的文件
-    gc.setFileOverride(false); //不覆盖之前生成的文件
+    gc.setFileOverride(true); //不覆盖之前生成的文件
 //        //设置生成代码的名字
 //    gc.setEntityName("%sEntity")
     gc.setEntityName("%sEntity")
@@ -87,10 +87,10 @@ public class MybatisGenerater {
     strategy.setColumnNaming(NamingStrategy.underline_to_camel);
     strategy.setEntityLombokModel(true);// 自动生成lombok注解  记住要有lombok依赖和对应的插件哈
     strategy.setRestControllerStyle(true); //rest风格controller
-//     strategy.setInclude("t_user");
+     strategy.setInclude("co_online_coaching_info");
     //可以用同配符号:表示生成t_开头的对应库下所有表
 //    strategy.setInclude("au_\\w**");
-    strategy.setTablePrefix("au_");
+    strategy.setTablePrefix("co_");
     strategy.setLogicDeleteFieldName("is_deleted");//设置逻辑删除字段
     strategy.setSuperEntityClass(Model.class);//领域模型
     // 设置创建时间和更新时间自动填充策略

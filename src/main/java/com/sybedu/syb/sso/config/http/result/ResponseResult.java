@@ -16,9 +16,9 @@ import java.io.Serializable;
 @Schema(name = "同一数据返回json格式")
 public class ResponseResult<T> implements Serializable {
 
-  public static final String SUCCESS_MESSAGE = "success";
+  public static final String SUCCESS_MESSAGE = "Success!";
 
-  public static final String FAILURE_MESSAGE = "failure";
+  public static final String FAILURE_MESSAGE = "Failure!";
 
 
 

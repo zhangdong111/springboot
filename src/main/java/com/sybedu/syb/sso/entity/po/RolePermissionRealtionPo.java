@@ -1,17 +1,21 @@
-package com.sybedu.syb.sso.entity;
+package com.sybedu.syb.sso.entity.po;
 
-import com.baomidou.mybatisplus.annotation.TableName;
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
-import java.util.Date;
-import com.baomidou.mybatisplus.annotation.Version;
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.TableLogic;
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableLogic;
+import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.Version;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
 import io.swagger.v3.oas.annotations.media.Schema;
+import java.io.Serializable;
+import java.util.Date;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 /**
  * <p>
@@ -19,21 +23,27 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author Rexxer
- * @since 2021-08-11
+ * @since 2021-08-12
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @EqualsAndHashCode(callSuper = true)
-@TableName("au_role")
-@Schema(name = "RoleEntity",description="")
-public class RoleEntity extends Model {
+@TableName("au_role_permission_realtion")
+@Schema(name = "RolePermissionRealtionEntity",description="")
+public class RolePermissionRealtionPo extends Model implements Serializable {
 
   private static final long serialVersionUID=1L;
 
   @TableId(value = "id", type = IdType.ASSIGN_ID)
   private Long id;
 
-  @Schema(name = "name" , description = "角色名称")
-  private String name;
+  @Schema(name = "roleId" , description = "角色id")
+  private Integer roleId;
+
+  @Schema(name = "permissionId" , description = "功能id")
+  private Integer permissionId;
 
   @Schema(name = "createdTime" , description = "创建时间")
   @TableField(fill = FieldFill.INSERT)

@@ -11,5 +11,4 @@ public class ResultConstant {
 
    public static final String USERNAME_OR_PASSWORD_UNCORRECT = "用户名或者密码不正确";
 
-
 }

@@ -1,6 +1,6 @@
 package com.sybedu.syb.sso.mapper;
 
-import com.sybedu.syb.sso.entity.RolePermissionRealtionEntity;
+import com.sybedu.syb.sso.entity.po.RolePermissionRealtionPo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author Rexxer
- * @since 2021-08-11
+ * @since 2021-08-12
  */
-public interface RolePermissionRealtionMapper extends BaseMapper<RolePermissionRealtionEntity> {
+public interface RolePermissionRealtionMapper extends BaseMapper<RolePermissionRealtionPo> {
 
 }

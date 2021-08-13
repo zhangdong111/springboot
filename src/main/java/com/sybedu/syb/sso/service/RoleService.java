@@ -1,6 +1,6 @@
 package com.sybedu.syb.sso.service;
 
-import com.sybedu.syb.sso.entity.RoleEntity;
+import com.sybedu.syb.sso.entity.po.RolePo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author Rexxer
- * @since 2021-08-11
+ * @since 2021-08-12
  */
-public interface RoleService extends IService<RoleEntity> {
+public interface RoleService extends IService<RolePo> {
 
 }

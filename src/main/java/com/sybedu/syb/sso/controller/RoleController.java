@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author Rexxer
- * @since 2021-08-11
+ * @since 2021-08-12
  */
 @RestController
-@RequestMapping("/apis/auth/role")
+@RequestMapping("/role-entity")
 public class RoleController {
 
 }

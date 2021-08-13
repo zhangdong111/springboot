@@ -6,7 +6,7 @@
     <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.sybedu.syb.sso.entity.PermissionEntity">
+    <resultMap id="BaseResultMap" type="com.sybedu.syb.sso.entity.po.PermissionPo">
         <id column="id" property="id" />
         <result column="name" property="name" />
         <result column="url" property="url" />

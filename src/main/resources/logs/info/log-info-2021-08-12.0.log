@@ -1,0 +1,192 @@
+2021-08-12 11:20:32.386 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-08-12 11:20:33.263 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 23280 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 11:20:33.264 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 11:20:33.903 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 11:20:33.903 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 11:20:33.910 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-08-12 11:20:33.971 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ccafec9c-7171-33df-9e11-d5921571a68f
+2021-08-12 11:20:33.975 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$1d29501] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 11:20:33.985 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$b4c24929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 11:20:34.046 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-08-12 11:20:34.046 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 11:20:34.046 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-12 11:20:34.047 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-12 11:20:34.087 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-12 11:20:34.087 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 821 ms
+2021-08-12 11:20:34.320 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-08-12 11:20:35.272 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-12 11:20:35.487 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 11:20:35.490 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 11:20:36.152 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-12 11:20:36.152 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Started SybSSOApplication in 3.146 seconds (JVM running for 65698.242)
+2021-08-12 11:20:36.153 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-12 11:20:36.854 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-08-12 11:20:37.135 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 23280 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 11:20:37.135 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 11:20:37.277 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 11:20:37.277 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 11:20:37.281 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-08-12 11:20:37.311 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=92284295-3dd1-3b4b-ba64-1ce853df3335
+2021-08-12 11:20:37.315 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$1d29501] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 11:20:37.323 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$b4c24929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 11:20:37.368 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-08-12 11:20:37.369 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 11:20:37.369 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-12 11:20:37.369 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-12 11:20:37.383 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-12 11:20:37.383 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 246 ms
+2021-08-12 11:20:37.606 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-08-12 11:20:37.882 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-12 11:20:38.048 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 11:20:38.050 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 11:20:38.730 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-12 11:20:38.730 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Started SybSSOApplication in 1.736 seconds (JVM running for 65700.82)
+2021-08-12 11:20:38.731 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-12 11:21:01.881 [Thread-19] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-08-12 11:21:02.321 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 23280 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 11:21:02.321 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 11:21:02.491 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 11:21:02.492 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 11:21:02.496 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-08-12 11:21:02.526 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=92284295-3dd1-3b4b-ba64-1ce853df3335
+2021-08-12 11:21:02.530 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$1d29501] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 11:21:02.536 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$b4c24929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 11:21:02.585 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-08-12 11:21:02.586 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 11:21:02.586 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-12 11:21:02.586 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-12 11:21:02.601 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-12 11:21:02.602 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 279 ms
+2021-08-12 11:21:02.843 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-08-12 11:21:03.096 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-12 11:21:03.251 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 11:21:03.252 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 11:21:03.924 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-12 11:21:03.925 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Started SybSSOApplication in 1.788 seconds (JVM running for 65726.014)
+2021-08-12 11:21:03.925 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-12 11:21:19.376 [Thread-27] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-08-12 11:21:19.798 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 23280 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 11:21:19.798 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 11:21:19.981 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 11:21:19.981 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 11:21:19.989 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-08-12 11:21:20.022 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=29f87f09-e9d5-3a83-9b19-46f9c8e744a2
+2021-08-12 11:21:20.028 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$1d29501] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 11:21:20.034 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$b4c24929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 11:21:21.773 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 23280 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 11:21:21.773 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 11:21:21.938 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 11:21:21.938 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 11:21:21.943 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-08-12 11:21:21.974 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=29f87f09-e9d5-3a83-9b19-46f9c8e744a2
+2021-08-12 11:21:21.978 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$1d29501] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 11:21:21.985 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$b4c24929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 15:33:16.486 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 31856 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 15:33:16.487 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 15:33:16.598 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 15:33:16.598 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 15:33:17.508 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 15:33:17.519 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 15:33:17.535 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-08-12 15:33:17.750 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=29f87f09-e9d5-3a83-9b19-46f9c8e744a2
+2021-08-12 15:33:17.777 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$154ab9f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 15:33:17.891 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$c83a6e1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 15:37:42.934 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 31392 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 15:37:42.935 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 15:37:42.972 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 15:37:42.972 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 15:37:43.441 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 15:37:43.442 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 15:37:43.458 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-08-12 15:37:43.579 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=29f87f09-e9d5-3a83-9b19-46f9c8e744a2
+2021-08-12 15:37:43.596 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$d87be935] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 15:37:43.655 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$8b6b9d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 15:37:44.046 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (http) 8080 (http)
+2021-08-12 15:37:44.052 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-443"]
+2021-08-12 15:37:44.053 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 15:37:44.061 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-12 15:37:44.062 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-12 15:37:44.132 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-12 15:37:44.132 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1160 ms
+2021-08-12 15:37:45.155 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-08-12 15:37:46.208 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-12 15:37:46.607 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-443"]
+2021-08-12 15:37:46.624 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 15:37:46.627 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (http) 8080 (http) with context path ''
+2021-08-12 15:37:47.348 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-12 15:37:47.363 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Started SybSSOApplication in 4.837 seconds (JVM running for 5.384)
+2021-08-12 16:04:37.054 [Thread-7] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-08-12 16:04:37.404 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 31392 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 16:04:37.404 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 16:04:37.565 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 16:04:37.565 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 16:04:37.571 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-08-12 16:04:37.604 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=29f87f09-e9d5-3a83-9b19-46f9c8e744a2
+2021-08-12 16:04:37.608 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$d87be935] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 16:04:37.614 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$8b6b9d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 16:04:37.654 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (http) 8080 (http)
+2021-08-12 16:04:37.655 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-443"]
+2021-08-12 16:04:37.655 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 16:04:37.656 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-12 16:04:37.656 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-12 16:04:37.670 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-12 16:04:37.670 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 264 ms
+2021-08-12 16:04:37.887 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-08-12 16:04:38.138 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-12 16:04:38.298 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-443"]
+2021-08-12 16:04:38.299 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 16:04:38.301 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (http) 8080 (http) with context path ''
+2021-08-12 16:04:38.988 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-12 16:04:38.988 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Started SybSSOApplication in 1.743 seconds (JVM running for 1617.009)
+2021-08-12 16:04:38.990 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-12 16:05:01.154 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'thread'
+2021-08-12 16:05:01.467 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 31392 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 16:05:01.467 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 16:05:01.614 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 16:05:01.614 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 16:05:01.620 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-08-12 16:05:01.649 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=29f87f09-e9d5-3a83-9b19-46f9c8e744a2
+2021-08-12 16:05:01.653 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$d87be935] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 16:05:01.659 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$8b6b9d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 16:05:01.697 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (http) 8080 (http)
+2021-08-12 16:05:01.697 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-443"]
+2021-08-12 16:05:01.697 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 16:05:01.698 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-12 16:05:01.698 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-12 16:05:01.712 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-12 16:05:01.712 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 243 ms
+2021-08-12 16:05:01.923 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-08-12 16:05:02.145 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-12 16:05:02.305 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-443"]
+2021-08-12 16:05:02.307 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 16:05:02.308 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (http) 8080 (http) with context path ''
+2021-08-12 16:05:03.000 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-12 16:05:03.001 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Started SybSSOApplication in 1.699 seconds (JVM running for 1641.021)
+2021-08-12 16:05:03.002 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-12 16:19:14.369 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Starting SybSSOApplication using Java 11.0.2 on DESKTOP-PENBIRK with PID 560 (E:\Version Control\Git Work Space\GitHub\springboot\syb_sso\target\classes started by kefu in E:\Version Control\Git Work Space\GitHub\springboot\syb_sso)
+2021-08-12 16:19:14.370 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - The following profiles are active: dev
+2021-08-12 16:19:14.405 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 16:19:14.405 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 16:19:14.876 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-12 16:19:14.877 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-12 16:19:14.894 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-08-12 16:19:15.021 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=29f87f09-e9d5-3a83-9b19-46f9c8e744a2
+2021-08-12 16:19:15.038 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'threadPoolConfig' of type [com.sybedu.syb.sso.config.async.ThreadPoolConfig$$EnhancerBySpringCGLIB$$ba04c785] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 16:19:15.096 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.sybedu.syb.sso.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$6cf47bad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-12 16:19:15.372 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 443 (http) 8080 (http)
+2021-08-12 16:19:15.378 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-443"]
+2021-08-12 16:19:15.378 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-12 16:19:15.385 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-12 16:19:15.385 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-12 16:19:15.447 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-12 16:19:15.447 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1042 ms
+2021-08-12 16:19:16.084 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'thread'
+2021-08-12 16:19:16.914 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-12 16:19:17.203 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-443"]
+2021-08-12 16:19:17.208 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-08-12 16:19:17.210 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 443 (http) 8080 (http) with context path ''
+2021-08-12 16:19:17.911 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-12 16:19:17.917 [restartedMain] INFO  com.sybedu.syb.sso.SybSSOApplication - Started SybSSOApplication in 4.014 seconds (JVM running for 4.583)
+2021-08-12 16:19:34.730 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 16:19:34.731 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-12 16:19:34.731 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms

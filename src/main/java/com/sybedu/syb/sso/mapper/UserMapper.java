@@ -1,6 +1,6 @@
 package com.sybedu.syb.sso.mapper;
 
-import com.sybedu.syb.sso.entity.UserEntity;
+import com.sybedu.syb.sso.entity.po.UserPo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author Rexxer
- * @since 2021-08-11
+ * @since 2021-08-12
  */
-public interface UserMapper extends BaseMapper<UserEntity> {
+public interface UserMapper extends BaseMapper<UserPo> {
 
 }
